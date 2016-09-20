@@ -1,0 +1,101 @@
+body {
+  margin-top: 40px;
+}
+
+h2 {
+  margin-top: 60px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+#skills {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+}
+
+#project-header {
+  margin-bottom: 40px;
+  margin-top: 60px;
+  
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-bottom: 0px;
+  border-top: 2px dashed rgba(0,0,0,.1);
+/*  border-top: 2px dashed dodgerblue;*/
+}
+
+
+.btn-secondary {
+  float: right;
+  clear: both;
+/*  margin: 21px 6px;*/
+  margin-bottom: 90px;
+  margin: 40px 21px;
+/*  margin: 21px 21px;*/
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+
+
+.projects {
+  padding-bottom: 90px;
+}
+
+#contact-me {
+/*  text-align: center;*/
+  margin-bottom: 50px;
+}
+
+.moose {
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+#tophr {
+  border-top: 1px solid rgba(0,0,0,.1);
+/*  border-top: 2px dashed #4285F4;*/
+  color: blue
+}
+
+#last {
+  background:#4285F4;
+/*  float: right;*/
+  clear: both;
+/*  margin: 21px 6px;*/
+  margin-bottom: 90px;
+/*  margin: 40px 21px;*/
+/*  margin: 21px 21px;*/
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+#yo {
+  font-size: .8rem;
+  color: inherit;
+  position: relative;
+  top: 0;
+}
+
+#form_message {
+  margin-top: 3.2px;
+  padding-top: 8px;
+  padding-bottom: 9.6px;
+  overflow-y: auto;
+  min-height: 22rem;
+}
