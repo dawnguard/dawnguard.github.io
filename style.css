@@ -57,6 +57,19 @@ hr {
   margin-bottom: 50px;
 }
 
+label {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.form-control {
+  margin-top: 0;
+}
+
+#form-name{
+  margin-top: 0;
+}
+
 #form-message-label {
   font-size: .8rem;
   color: inherit;
@@ -71,6 +84,7 @@ hr {
   padding-bottom: 9.6px;
   overflow-y: auto;
   min-height: 22rem;
+  color: #55595c;
 }
 
 #submit-btn {
