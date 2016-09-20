@@ -17,7 +17,7 @@ HTML Components
 
 Todo
 -----
-+ ~Refactor code~
++ ~~Refactor code~~
 + Make beautiful form validation with jQuery
 + Make the form actually post to my email
 + Make a navbar
