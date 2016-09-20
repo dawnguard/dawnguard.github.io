@@ -2,25 +2,28 @@
 <html>
   <head>
     <title>Karan Bhullar</title>
-    
-    
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/css/mdb.min.css">
-    
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css"> <!-- Bootstrap 4 Alpha -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/css/mdb.min.css"> <!-- Material Design Bootstrap 4 -->
+    <!-- Internal Stylesheets -->
     <link href="style.css" rel="stylesheet">
-    
+    <!-- Fonts Imports -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
   </head>
+  
   <body>
     <div class="container">
       <div class="col-md-12">
-        <h1>Hi, I'm Karan Bhullar</h1>
-        <h3>I'm a Web Developer with a passion for clean, readable code.</h3>
+        
+        <div>
+          <h1>Hi, I'm Karan Bhullar</h1>
+          <h2>I'm a Web Developer with a passion for clean, readable code.</h2>
+        </div>
 
-        <hr  style="margin-top: 60px;">
+        <hr>
+        
         <div id="skills">
-        <h2>Skills</h2>
+          <h3>Skills</h3>
           <ul>
             <li>HTML + CSS</li>
             <li>Sass + Bootstrap</li>
@@ -28,13 +31,14 @@
           </ul>
         </div>
 
-       <hr style="margin-top: 60px;">
+       <hr>
        
-        <div class="projects">
-          <h2 id="project-header">Featured Projects</h2>
+        <div id="projects">
+          <h3 id="projects-header">Featured Projects</h3>
           <div class="row">
             <div class="col-md-4">
-              <div class="card">
+              
+               <div class="card">
                 <img class="card-img-top" src="modal.PNG" alt="Card image cap">
                 <div class="card-block">
                   <h4 class="card-title">User Auth Modals</h4>
@@ -68,45 +72,40 @@
                 </div>
               </div>
             </div>
+            
           </div>
 
-            <a href="#" class="btn btn-secondary btn-lg center-block" id="first">View All Projects</a>
+          <a href="#" id="view-all-projects-btn" class="btn btn-secondary btn-lg center-block">View All Projects</a>
         </div>
 
-        <hr style="margin-top: 60px;">
+        <hr>
 
         <div>
-          <h2 id="contact-me">Contact Me</h2>
-<!--          form attributes are fucked up-->
+          <h3 id="contact-me">Contact Me</h3>
           <div>
               <form action="#">
+                 
                   <div class="form-group">
-                      <label for="form_email">Name</label>
-                      <input id="form_email" type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
-                      <div class="help-block with-errors"></div>
+                      <label for="form-name">Name</label>
+                      <input id="form-name" type="text" name="name" class="form-control" required>
                   </div>
+                  
                   <div class="form-group">
-                      <label for="form_email">Your Email</label>
-                      <input type="email" name="email" class="form-control" required="required" data-error="Valid email is required.">
-                      <div class="help-block with-errors"></div>
+                      <label for="form-email">Your Email</label>
+                      <input id="form-email" type="email" name="email" class="form-control" required>
                   </div>
+                  
                   <div class="md-form">
-                   <label for="form_message" id="yo">Message</label>
-                    <textarea type="text" id="form_message" class="md-textarea"></textarea>
-                    
+                    <label for="form-message" id="form-message-label">Message</label>
+                    <textarea id="form-message" type="text" class="md-textarea" required></textarea>
                   </div>
+                  
                   <div class="form-group">
-                      <button class="btn btn-lg btn-primary" id="last">Submit!</button>
+                      <button id="submit-btn" class="btn btn-lg btn-primary">Submit!</button>
                   </div>
+                  
               </form>
           </div>
-        </div>
-        
-        <div id="form-test">
-                        <!--Basic textarea-->
-
-
-
         </div>
       </div>
     </div>

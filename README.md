@@ -1,7 +1,7 @@
 # dawnguard.github.io
 This is my personal portfolio website
 
-This is the first semi-working version. The code is horrible, to be refactored in later versions.
+Version 0.0.1
 
 Dependencies
 -----
@@ -17,7 +17,7 @@ HTML Components
 
 Todo
 -----
-+ Refactor code
++ ~Refactor code~
 + Make beautiful form validation with jQuery
 + Make the form actually post to my email
 + Make a navbar
