@@ -3,14 +3,13 @@ body {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 
 h2 {
 /*  font-size: 1.75rem;*/
   font-size: 1.625rem;
-  margin-bottom: 20px;
 }
 
 h3 {
@@ -105,3 +104,5 @@ input:-webkit-autofill:active {
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
+
+/*If mobile, decrease font size*/
