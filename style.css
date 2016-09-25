@@ -1,5 +1,5 @@
 body {
-  margin-top: 2.5rem;
+  margin-top: 6.5rem;
 }
 
 h1 {
@@ -115,4 +115,17 @@ input:-webkit-autofill:active {
   h1 {
     margin-bottom: 1.25rem;
   }
+}
+
+.navbar li {
+  display: inline;
+}
+
+li a i:hover {
+  color: greenyellow;
+}
+
+.navbar.navbar-dark .breadcrumb a:hover, .navbar.navbar-dark .navbar-nav .nav-item a:hover,
+.navbar.navbar-dark .breadcrumb a:active, .navbar.navbar-dark .navbar-nav .nav-item a:active {
+    color: greenyellow;
 }
