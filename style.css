@@ -131,7 +131,7 @@ input:-webkit-autofill:active {
   clear: both;
 }
 
-#main-navigation .active {
+#main-navigation a:hover {
   color: greenyellow;
 }
 
@@ -139,7 +139,6 @@ li a i:hover {
   color: greenyellow;
 }
 
-.navbar.navbar-dark .breadcrumb a:hover, .navbar.navbar-dark .navbar-nav .nav-item a:hover,
-.navbar.navbar-dark .breadcrumb a:active, .navbar.navbar-dark .navbar-nav .nav-item a:active {
-    color: greenyellow;
+#main-navigation a.active {
+  color: greenyellow;
 }
