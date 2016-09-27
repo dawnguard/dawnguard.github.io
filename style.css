@@ -1,4 +1,9 @@
+nav.navbar {
+  border-radius: 0;
+}
+
 body {
+  position: relative; /* For scrollspy */
   margin-top: 6.5rem;
 }
 
@@ -120,6 +125,14 @@ input:-webkit-autofill:active {
 
 .navbar li {
   display: inline;
+}
+
+#skilly-nav {
+  clear: both;
+}
+
+#main-navigation .active {
+  color: greenyellow;
 }
 
 li a i:hover {
