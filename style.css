@@ -1,10 +1,10 @@
-nav.navbar {
-  border-radius: 0;
-}
-
 body {
   position: relative; /* For scrollspy */
   margin-top: 6.5rem;
+}
+
+nav.navbar {
+  border-radius: 0;
 }
 
 h1 {
@@ -19,21 +19,17 @@ h2 {
 }
 
 h3 {
-  font-weight: bold;
-  font-family: 'Raleway', sans-serif;
-  color: #444;
   margin-bottom: 1.25rem;
+  color: #444;
+  font-family: 'Raleway', sans-serif;
   font-size: 2rem;
+  font-weight: bold;
 }
 
 hr {
   margin: 3.75rem auto;
   border-top: 0.125rem dashed rgba(0,0,0,.1);
 /*  border-top: 0.125rem dashed dodgerblue;*/
-}
-
-hr:target {
-  padding-top: 1.25rem; margin-top: 5rem;
 }
 
 #skills ul {
@@ -150,6 +146,6 @@ li a i:hover {
 }
 
 section:target {
-  padding-top: 100px;
-  margin-top: -100px;
+  padding-top: 90px;
+  margin-top: -90px;
 }
