@@ -14,6 +14,13 @@
   <!-- Fonts Imports -->
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/components/icon.min.css" /> </head>
+  
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
+  <script src="scripts/autosize.min.js"></script>
+  <script src="scripts/script.js"></script>
+  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/js/mdb.min.js"></script>-->
 
 <body data-spy="scroll" data-target="#main-navigation" data-offset="150">
   <header>
@@ -22,7 +29,7 @@
         <!--          <div class="col-md-12">--><a class="navbar-brand" href="#"><i class="code icon"></i> Karan Bhullar</a>
         <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapse-nav" aria-controls="collapse-nav" aria-expanded="false" aria-label="Toggle navigation"> <i class="content icon"></i> </button>
         <div class="collapse navbar-toggleable-xs" id="collapse-nav">
-          <ul class="nav navbar-nav" id="main-navigation" role="navigation">
+          <ul class="nav navbar-nav" id="main-navigation">
             <li class="nav-item"> <a id="skills-nav" class="nav-link" href="#skills">Skills</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#projects">Projects</a> </li>
             <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
@@ -92,7 +99,7 @@
               <input id="form-subject" type="text" name="message[subject]" class="form-control" placeholder="I wanna talk about..." required> </div>
             <div class="md-form">
               <label for="form-message" id="form-message-label">Message</label>
-              <textarea id="form-message" type="text" name="message[body]" class="md-textarea" placeholder="Bla bla bla" required></textarea>
+              <textarea id="form-message" name="message[body]" class="md-textarea" placeholder="Bla bla bla" required></textarea>
             </div>
             <div class="form-group">
               <button id="submit-btn" type="submit" class="btn btn-lg btn-primary">Send</button>
@@ -105,8 +112,3 @@
 </body>
 
 </html>
-<script src="https://code.jquery.com/jquery-2.2.4.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
-<script src="scripts/autosize.min.js"></script>
-<script src="scripts/script.js"></script>
-<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.1.1/js/mdb.min.js"></script>-->
