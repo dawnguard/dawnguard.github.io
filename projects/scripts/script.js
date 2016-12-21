@@ -1,1 +1,0 @@
-autosize(document.querySelector('textarea'));
